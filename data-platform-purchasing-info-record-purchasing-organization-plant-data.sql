@@ -10,7 +10,7 @@ CREATE TABLE `data_platform_purchasing_info_record_organization_plant_data`
     `OrderQuantityUnit`                     varchar(3) DEFAULT NULL,   -- 名称変更
     `MinimumPurchaseOrderQuantity`          varchar(13) DEFAULT NULL,
     `StandardPurchaseOrderQuantity`         varchar(13) DEFAULT NULL,
-    `MaterialPlannedDeliveryDurn`           int(3) DEFAULT NULL,
+    `ProductPlannedDeliveryDurn`            int(3) DEFAULT NULL,
     `InvoiceIsGoodsReceiptBased`            tinyint(1) DEFAULT NULL,
     `TaxCode`                               varchar(2) DEFAULT NULL,
     `IncotermsClassification`               varchar(3) DEFAULT NULL,
